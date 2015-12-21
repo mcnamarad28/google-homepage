@@ -24,6 +24,19 @@ ul li a {
 
 }
 
+.name {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: #8C8C8C;
+	text-align: center;
+	margin: 0;
+	display: inline-block;
+	padding-top: 27px;
+	padding-left: 5px;
+	padding-right: 5px;
+	vertical-align: text-top;
+}
+
 ul li a:hover {
 	text-decoration: underline;
 }
@@ -34,6 +47,7 @@ ul li {
 	padding-left: 5px;
 	padding-right: 5px;
 	vertical-align: text-top;
+	vertical-align: center;
 
 }
 
@@ -42,12 +56,32 @@ ul {
 }
 
 .apps {
-	height: 20px;
-	width: 20px;
-	background-position: -132 px -38px;
+	height: 15px;
+	width: 15px;
+	vertical-align: center;
+	opacity: .55;
+}
+
+.apps:hover {
+	opacity: 1;
+}
+
+.bells {
+	height: 17px;
+	width: 14.45px;
 	vertical-align: center;
 }
 
+.account {
+	background-image: url("google_dillon.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+	padding-right: 25px;
+
+
+}
 
 
 
