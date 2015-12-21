@@ -1,86 +1,63 @@
-.displayed {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	clear: both;
-	width: 272px;
-	height: 92px;
-	padding-top: 152px;
+
+body div {
+	float: right;
+	margin-top: 22px;
+	font-size: 13px;
+	font-family: Arial;
+	padding: 0 32px 16px 16px;
+	color: #666;
 }
 
-.header {
-
-}
-
-ul li a {
+li a {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 	text-decoration: none;
-	font-family: Arial, sans-serif;
-	font-size: 13px;
-	color: #595959;
-	text-align: center;
-
-}
-
-.name {
-	font-family: Arial, sans-serif;
-	font-size: 13px;
-	color: #8C8C8C;
-	text-align: center;
-	margin: 0;
 	display: inline-block;
-	padding-top: 27px;
-	padding-left: 5px;
-	padding-right: 5px;
-	vertical-align: text-top;
+	padding-right: 20px;
+	color: #4d4d4d;
 }
 
-ul li a:hover {
+li {
+	display: inline-block;
+	float: left;
+	padding-right: 12px;
+}
+
+a:hover {
 	text-decoration: underline;
 }
 
-ul li {
+
+#displayed {
 	display: inline-block;
-	padding-top: 25px;
-	padding-left: 5px;
-	padding-right: 5px;
-	vertical-align: text-top;
-	vertical-align: center;
-
+	margin-left: 150px;
+	margin-right: 185px;
+	clear: both;
+	width: 272px;
+	height: 92px;
+	padding-top: 176px;
 }
 
-ul {
-	float: right;
-}
-
-.apps {
-	height: 15px;
-	width: 15px;
-	vertical-align: center;
+#apps {
 	opacity: .55;
 }
 
-.apps:hover {
+#apps:hover {
 	opacity: 1;
 }
 
-.bells {
-	height: 17px;
-	width: 14.45px;
-	vertical-align: center;
+#signin {
+	padding: 7px 10px 7px 10px;
+	border: solid #4285f4 1px;
+	border-radius: 7%;
+	margin-top:-5px;
+	background: #4285f4;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
 }
 
-.account {
-	background-image: url("google_dillon.png");
-	background-position: center center;
-	background-repeat: no-repeat;
-	height: 20px;
-	width: 20px;
-	padding-right: 25px;
-
-
+#signin:hover {
+	box-shadow: 0px 0px 1px #888888;
 }
 
 
